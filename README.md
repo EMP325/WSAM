@@ -8,16 +8,6 @@ Deep Neural Networks (DNNs) generalization is known to be closely related to the
 We propose a more general method, called WSAM, by incorporating sharpness as a regularization term.
 WSAM can achieve improved generalization, or is at least highly competitive, compared to the vanilla optimizer, SAM and its variants.
 
-<p align="center">
-  <img src="wsam_traj.png" alt="WSAM can achieve different minima by choosing
-different 𝛾." width="512"/>
-</p>
-
-<p align="center">
-  <sub><em>WSAM can achieve different (flatter) minima by choosing
-different 𝛾.</em></sub>
-</p>
-
 ## Usage
 
 Similar to SAM, WSAM can be used in a two-step manner or with a single
